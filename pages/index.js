@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Card from '../components/card';
+import Card from '../components/Card';
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
 

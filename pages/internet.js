@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import HCard from '../components/hcard';
+import HCard from '../components/HCard';
 import Layout from '../components/Layout'
-import styles from '../styles/Home.module.css'
 import { useRouter } from 'next/router'
 
 export async function getStaticProps(){
