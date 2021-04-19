@@ -1,0 +1,19 @@
+.card_image{
+    background-color: #fff;
+    transition: 0.5s;
+}
+.card_image:hover{
+    opacity: 0.9;
+}
+.card_title{
+    transition: 0.5s;
+}
+.card_title:hover{
+    opacity: 0.6;
+}
+.card:hover > h5,.card:hover > small{
+    color: #212529;
+}
+.card:hover{
+    color: #212529;
+}
