@@ -41,6 +41,11 @@ h5,h6{
   margin: 3rem 0rem 3rem 0rem;
   align-self: center;
 }
+
+.main___content>iframe{
+ max-width: 100%;
+}
+
 .extend{
   position: relative;
 
@@ -75,6 +80,12 @@ h5,h6{
   color:#3d5afe;
   fill: #3d5afe;
 }
+
+.page_main{
+  position: relative;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .footer-links{

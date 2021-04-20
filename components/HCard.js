@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import styles from '../styles/Card.module.css'
 function HCard(props) {
+    let x = new Date(props.date);
+
     return (
         <div className={`container-fluid ${styles.card}`}>
             <div className="row w-100">
@@ -9,7 +11,7 @@ function HCard(props) {
                 </div>
                 <div className="col-12 col-lg-4">
                     <h5 className={` mt-4 mt-lg-1 ${styles.card_title}`}>{props.title}</h5>
-                    <small>{props.date}</small>
+                    <small>{x.toDateString()}</small>
                 </div>
             </div>
             <hr className="my-5"/>

@@ -8,6 +8,7 @@ export async function getStaticProps(){
   const data = await fetch(`${process.env.API_URL}/articles`)
   const res = await data.json();
   const main_url = process.env.API_URL;
+ 
   return{
     props: {res,main_url},
     revalidate:300,
@@ -18,7 +19,7 @@ export default function Home(props) {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>TechWiser</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
@@ -34,7 +35,7 @@ export default function Home(props) {
                 </Link>
               </div>           
           )})
-          }
+            }
         </div>
       </Layout>
     </>

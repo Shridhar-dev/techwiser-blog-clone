@@ -20,7 +20,7 @@ export default function Howto(props) {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>TechWiser | HowTo</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>

@@ -26,8 +26,8 @@ function Page(props) {
     else{
         return (
             <Layout>
-                <div className="mx-5 px-5">
-                    <div className="mx-5 px-5">
+                <div className="mx-0 px-0 mx-lg-5 px-lg-5">
+                    <div className="mx-0 px-0 mx-lg-5 px-lg-5">
                         <h1 style={{fontSize:'3rem'}} className="my-5 py-5">{props.post[0].title}</h1>
                         <ReactMarkdown rehypePlugins={[rehypeRaw]} className="main___content">
                             {props.post[0].content}

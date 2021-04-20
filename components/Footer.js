@@ -1,7 +1,7 @@
 
 function Footer() {
     return (
-        <div className="container-fluid pt-5 pb-4 text-center" style={{background:'black',position:"relative",bottom:'-137px'}}>
+        <div className="container-fluid footer_main pt-5 pb-4 text-center" style={{background:'black',position:"absolute",bottom:'-30%'}}>
             <div className="d-flex justify-content-center">
 
                 <div className="d-flex align-items-center mx-3 footer-items">

@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 
 function Layout(props) {
     return (
-        <div>
+        <div className="page_main" style={{minHeight:'100vh'}}>
             <Navbar />
                 <div className="mx-5">
                     <div className="mx-3"> 
