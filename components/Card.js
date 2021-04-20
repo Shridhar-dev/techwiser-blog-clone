@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Moment from 'react-moment'
 import styles from '../styles/Card.module.css'
 function Card(props) {
     let x = new Date(props.date);
